@@ -34,13 +34,12 @@ footer {
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	margin-top: 10px
 }
 
 .box {
 	border: 5px solid black;
 	max-widt: 800px;
-	margin: 10px auto;
+	margin: 20px auto;
 	padding: 40px;
 	background-color: white;
 	display: flex;
