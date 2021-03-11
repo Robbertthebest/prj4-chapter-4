@@ -19,6 +19,10 @@ header {
 
 }
 
+p {
+	margin: 20px;
+}
+
 h1 {
 	max-widt: 800px;
 	margin-left: auto;
@@ -30,20 +34,19 @@ footer {
 	position: fixed;
 	bottom: 0;
 	right: 0;
+	margin-top: 10px
 }
 
 .box {
 	border: 5px solid black;
 	max-widt: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
+	margin: 10px auto;
+	padding: 40px;
 	background-color: white;
+	display: flex;
 }
 .my-image {
 	max-widt: 100%;
-	display: block;
-	margin: 0 auto;
 }
 	
 
