@@ -1,12 +1,44 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-	background-color: #0E0E0E;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body { 
+	background-color: #FFAB59;
+	font-family: 'Poppins', sans-serif;
+}
+header {
+	background-image: url(../images/photo2.jpg);
+	background-size: contain;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: white;
+
+}
+
+h1 {
+	max-widt: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-shadow: 1px 1px 5px black;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
 }
 
 .box {
-	border: 2px solid #ffffff;
+	border: 5px solid black;
+	max-widt: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	background-color: white;
 }
 .my-image {
 	max-widt: 100%;
@@ -14,3 +46,4 @@ body {
 	margin: 0 auto;
 }
 	
+
